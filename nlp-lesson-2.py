@@ -141,18 +141,13 @@ print(n)
 
 
 # PANDAS
-df = pd.read_csv('/natural-language-processing/submission.csv')
+df = pd.read_csv('ds_salaries.csv')
 
 
-print(df.shape)
-print(df.columns)
-
-print(df.dtypes)
-
-print(df.head(2))  # first 2 data
-
-print(df.tail())  # last 5 data
-
-print(df.info())
-
-print(df.describe())
+print(df.shape, " \nSHAPE ")
+print(df.columns, "\nCOLUMNS ")
+print(df.dtypes, " \nTYPES ")
+print(df.head(2), " \nHEAD ")  # first 2 data
+print(df.tail(), " \nTAIL ")  # last 5 data
+print(df.info(), " \nINFO ")
+print(df.describe(), "\nDESCRIBE ")
