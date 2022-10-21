@@ -1,3 +1,3 @@
 # natural-language-processing
-## NLP lessons
+## NLP Zero to Hero
 ### using python3 (https://www.python.org/)
