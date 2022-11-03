@@ -2,8 +2,7 @@ from sklearn.model_selection import train_test_split
 from asyncore import read
 import pandas as pd
 
-df = pd.read_csv(
-    'all-data.csv', names=['Label', 'Text'], encoding='ISO-8859-1')
+df = pd.read_csv('all-data.csv', names=['Label', 'Text'], encoding='ISO-8859-1')
 print(df.head())
 
 print(df.isna().sum)
